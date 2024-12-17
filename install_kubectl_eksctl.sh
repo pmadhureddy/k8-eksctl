@@ -46,10 +46,10 @@ print_info "Verifying eksctl installation..."
 # eksctl version
 
 # Configure AWS CLI
-print_info "Configuring AWS CLI. Please provide credentials when prompted."
-sudo aws configure
+# print_info "Configuring AWS CLI. Please provide credentials when prompted."
+# sudo aws configure
 
-print_info "Installation and configuration complete!"
+# print_info "Installation and configuration complete!"
 
 
 git clone https://github.com/pmadhureddy/k8-eksctl.git
@@ -58,4 +58,4 @@ git clone https://github.com/pmadhureddy/k8-resources.git
 
 cd k8-eksctl
 
-eksctl create cluster --config-file=eks.yml
+# eksctl create cluster --config-file=eks.yml
