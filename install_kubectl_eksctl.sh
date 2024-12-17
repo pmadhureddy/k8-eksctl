@@ -47,7 +47,7 @@ print_info "Verifying eksctl installation..."
 
 # Configure AWS CLI
 print_info "Configuring AWS CLI. Please provide credentials when prompted."
-aws configure
+sudo aws configure
 
 print_info "Installation and configuration complete!"
 
