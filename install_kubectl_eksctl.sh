@@ -14,6 +14,9 @@ print_info() {
   echo -e "\033[1;32m$1\033[0m"
 }
 
+
+curl https://raw.githubusercontent.com/daws-81s/expense-docker/refs/heads/main/install-docker.sh | sudo bash
+
 # Install kubectl
 print_info "Downloading and installing kubectl..."
 curl -O "https://s3.us-west-2.amazonaws.com/amazon-eks/$KUBECTL_VERSION/$KUBECTL_RELEASE_DATE/bin/linux/$ARCH/kubectl"
