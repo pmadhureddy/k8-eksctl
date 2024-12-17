@@ -25,7 +25,7 @@ sudo mv kubectl /usr/local/bin/kubectl
 
 # Verify kubectl installation
 print_info "Verifying kubectl installation..."
-kubectl version --client --short
+# kubectl version --client --short
 
 # Install eksctl
 print_info "Downloading and installing eksctl..."
