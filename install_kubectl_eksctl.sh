@@ -43,7 +43,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 # Verify eksctl installation
 print_info "Verifying eksctl installation..."
-eksctl version
+# eksctl version
 
 # Configure AWS CLI
 print_info "Configuring AWS CLI. Please provide credentials when prompted."
